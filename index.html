@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign-Up Page</title>
+    </head>
+    <body>
+        <h1 class="header">Sign-Up Page</h1>
+        <div class="inputInfo">
+            <form action="somepage.html">
+                <label for="name">Input Name: </label></br>
+                <input type="text" id="name" name="name" placeholder="Name"></br>
+
+                <label for="username">Input Preferred Username: </label></br>
+                <input type="text" id="username" name="username" placeholder="Username"></br>
+
+                <label for="password">Input Password: </label></br>
+                <input type="password" id="password" name="password" placeholder="Password">
+                <input type="password" id="confirm_pass" name="confirm_pass" placeholder="Confirm Password" required></br>
+
+                <label for="email">Input Email: </label></br>
+                <input type="email" id="email" name="email" placeholder="Email"></br>
+
+                <label for="address">Input Address: </label></br>
+                <textarea id="address" name="address" rows="4" cols="50" placeholder="Address"></textarea></br>
+
+                <label id="userInterests" for="interests">What are your interests?</label></br>
+                <textarea id="interests" name="interests" rows="4" cols="50" placeholder="User Interests"></textarea></br>
+
+                <input type="submit" value="Submit Info">
+                <input type="reset" value="Reset Values">
+            </form>
+        </div>
+    </body>
+    <script>
+
+    </script>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            background-color:black;
+        }
+        .header{
+            text-align:center;
+            color:white;
+        }
+        .inputInfo{
+            margin: 50px auto;
+            padding: 20px;
+            text-align:left;
+            max-width:500px;
+            height:auto;
+            border:solid white 2px;
+        }
+        label{
+            color:white;
+            font-weight:bold;
+        }
+    </style>
+</html>
